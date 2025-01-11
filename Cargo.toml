@@ -1,6 +1,10 @@
 [package]
 name = "kopama"
 version = "0.1.0"
+description = "a cli for managing configfiles and packages"
+repository = "https://github.com/nicomyerr/kopama"
+readme = "README.md"
 edition = "2021"
 
 [dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
